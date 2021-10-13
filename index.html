@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://equilibrium.co/images/casestudies/square-aleo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;700;800&family=Open+Sans:wght@300;400;600;700&display=swap');
+    </style>
+    <title>ANIMATION</title>
+</head>
+<body>
+  <main>
+  <div class="ct" id="t1">
+      <div class="ct" id="t2">
+        <div class="ct" id="t3">
+          <div class="ct" id="t4">
+             <div class="ct" id="t5">
+              <ul id="menu">
+                <a href="#t1"><li class="icon fa fa-circle-thin" id="uno"></li></a>
+                <a href="#t2"><li class="icon fa fa-minus" id="dos"></li></a>
+                <a href="#t3"><li class="icon fa fa-toggle-off" id="tres"></li></a>
+                <a href="#t4"><li class="icon fa fa-braille" id="cuatro"></li></a>
+                <a href="#t5"><li class="icon fa fa-circle" id="cinco"></li></a>
+              </ul>
+              <div class="page" id="p1">
+                <a href="https://github.com/FectourSu"><li class="fa fa-github"></li></a>
+              </div>
+                <div class="page" id="p2">
+                  <div class="wrapper">
+                    <div class="container" onclick="this.classList.toggle('active')">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
+                            <g stroke-width="6.5" stroke-linecap="round">
+                              <path
+                                d="M72 82.286h28.75"
+                                fill="#009100"
+                                fill-rule="evenodd"
+                                stroke="#fff"
+                              />
+                              <path
+                                d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                                fill="none"
+                                stroke="#fff"
+                              />
+                              <path
+                                d="M72 125.143h28.75"
+                                fill="#009100"
+                                fill-rule="evenodd"
+                                stroke="#fff"
+                              />
+                              <path
+                                d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                                fill="none"
+                                stroke="#fff"
+                              />
+                              <path
+                                d="M100.75 82.286h28.75"
+                                fill="#009100"
+                                fill-rule="evenodd"
+                                stroke="#fff"
+                              />
+                              <path
+                                d="M100.75 125.143h28.75"
+                                fill="#009100"
+                                fill-rule="evenodd"
+                                stroke="#fff"
+                              />
+                            </g>
+                          </svg>
+                    </div>
+                </div>  
+                </div>
+                <div class="page" id="p3"> 
+                  <div class="wrapper sheep">
+                    <label class="switch">
+                      <input type="checkbox" id="checkbox-toggle">
+                      <span class="slider">
+                        <div class="fish">
+                          <div class="body">
+                          </div>
+                          <div class="eye"></div>
+                          <div class="tail"></div>
+                        </div>
+                      </span>
+                      <span class="wave"> </span>
+                      <div class="boat">
+                        <div class="bottom"></div>
+                        <div class="mast"></div>
+                        <div class="rectangle-sm"></div>
+                        <div class="rectangle-lg"></div>
+                      </div>
+                      <div class="sky">
+                        <div class="sun">
+                          <div class="outer"></div>
+                          <div class="inner"></div>
+                        </div>
+                        <div class="cloud cloud1">
+                          <div class="rect"></div>
+                          <div class="circle circle-lg"></div>
+                          <div class="circle circle-sm"></div>
+                        </div>
+                        <div class="cloud cloud2">
+                          <div class="rect"></div>
+                          <div class="circle circle-lg"></div>
+                          <div class="circle circle-sm"></div>
+                        </div>
+                      </div>
+                    </label>
+                    <svg viewBox="0 0 180 100" width="100%">
+                      <filter width="100%" height="100%" x="0%" y="0%" id="wave">
+                        <feTurbulence type="fractalNoise" baseFrequency="0.000001" id="turbulence" numOctaves="1" result="turbulence">
+                          <animate id="noiseAnimate" attributeName="baseFrequency" values="0.095,0.000001;0.025,0.2;" dur="1.4s" repeatCount="indefinite"></animate>
+                        </feTurbulence>
+                        <feDisplacementMap in="SourceGraphic" in2="warpOffset" scale="6" dy="100px" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+                        <feGaussianBlur stdDeviation="0.5" />
+                      </filter>
+                      </svg>
+                </div>
+                </div>  
+                <div class="page" id="p4">
+                  <div class="wrapper">
+                    <div class="loader">
+                      <div class="loader-container">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                      </div>
+                    </div>
+                    <div class="containerd">
+                      <div class="group top">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="group top">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="group right">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="group left">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="middle">
+                      </div>
+                      <div class="group right">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="group left">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="group bottom">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                      <div class="group bottom">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="page" id="p5">
+                  <div class="wrapper"><svg id="burger" width="200" height="200"></svg></div>
+                </div> 
+             </div>
+          </div>
+      </div>
+    </div>
+  </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b07d077b1a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/zdog@1.1.2/dist/zdog.dist.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
